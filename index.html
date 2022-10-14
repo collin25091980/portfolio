@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+   <meta property="og:title" content="Le portfolio de John Doe">
+   <meta property="og:description" content="Bienvenue sur mon portfolio">
+   <meta property="og:image" content="https://johndoe.com/mon-image.png">
+   <meta property="og:url" content="https://johndoe.com">
+   <meta name="twitter:card" content="summary_large_image">
+   <meta property="og:site_name" content="John Doe | Portfolio">
+   <meta property="og:image:alt" content="Le texte alternatif de l'image">
+
+   <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+   <link rel="stylesheet" href="defaut.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>John Doe | Portfolio</title>
+</head>
+<body>
+   <section id="bienvenue">
+      <header>
+         <div id="flex-header" class="container"> <!-- ON UTILISE FLEXBOX POUR ALIGNER-->
+            JOHN DOE
+            <nav>
+               <ul>
+                  <li><a href="index.html">Accueil</a></li>
+                  <li><a href="mailto:johndoe@gmail.com">Contactez-moi</a></li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+
+      <!-- ON UTILISE ENCORE FLEXBOX POUR ALIGNER -->
+      <div id="flex-presentation" class="container">
+         <div class="gauche-presentation">
+            <h1>Portfolio</h1>
+            <span>
+               Développeur Web maîtrisant parfaitement les aspects de la création d'un site internet efficace, simple et intuitif. Bienvenue sur mon portfolio.
+            </span>
+         </div>
+         <div class="droite-presentation">
+            <img src="images/illustration.png" alt="illustration">
+         </div>
+      </div>
+   </section>
+
+   <section>
+      <!-- LA PARTIE "CREATIONS" -->
+      <h2>Creations</h2>
+      <p class="texte-presentation">
+         Voici toutes mes créations
+      </p>
+      <div class="container">
+         <div id="projet-grille">
+            <a href="projets/jump-start.html">
+               <div class="projet projet-a">
+                  <h3>Jump Start</h3>
+               </div>
+            </a>
+            <a href="#">
+               <div class="projet projet-b">
+                  <h3>Rodeo Pump</h3>
+               </div>
+            </a>
+            <a href="#">
+               <div class="projet projet-c">
+                  <h3>Pac Man</h3>
+               </div>
+            </a>
+            <a href="#">
+               <div class="projet projet-d">
+                  <h3>Mega Pop</h3>
+               </div>
+            </a>
+         </div>
+      </div>
+      <!-- ON UTILISE UNE GRILLE POUR LES PROJETS -->
+   </section>
+
+   <section>
+      <div class="container">
+         <h2>Contact</h2>
+         <p class="texte-presentation">Alors on travaille ensemble ?</p>
+         <div id="contact">
+            <a href="mailto:johndoe@gmail.com" class="bouton">Envoyez un email</a>
+         </div>
+      </div>
+      <!-- LA PARTIE "CONTACT" -->
+   </section>
+
+   <footer>
+      <div class="container">
+         &copy; John Doe
+      </div>
+   </footer>
+</body>
+</html>
